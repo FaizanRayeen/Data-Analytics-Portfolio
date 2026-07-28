@@ -1,12 +1,18 @@
 # 🎬 Netflix Content Intelligence Dashboard
 
-A Power BI dashboard analyzing Netflix's content catalog — genres, directors, actors, ratings, and global content production trends.
+A Power BI dashboard analyzing Netflix's movies and TV shows data to uncover content trends and audience preferences.
 
 ![Dashboard Preview](dashboard_preview.png)
 
 ## 📊 Overview
 
-An interactive single-page dashboard that explores Netflix's Movies and Shows catalog, with slicers to filter between **Movie** and **Show** content types.
+An interactive single-page dashboard exploring Netflix's content catalog — including titles, genres, IMDb ratings, TMDB scores, release year, runtime, countries, actors, and directors — with filters to toggle between **Movie** and **Show** content types.
+
+The goal of this project was to understand:
+- Which type of content is most popular
+- Which genres are trending
+- How Netflix content grew over the years
+- Which countries produce the most content
 
 ## 🔑 Key Metrics (KPIs)
 
@@ -14,25 +20,26 @@ An interactive single-page dashboard that explores Netflix's Movies and Shows ca
 |---|---|
 | Total Genres | 5.645K |
 | Total Runtime | 7.15K hrs |
-| Average TMDB Rating | 6.83 |
-| Average IMDB Rating | 6.50 |
+| Average TMDB Score | 6.83 |
+| Average IMDb Score | 6.50 |
 
 ## 📈 Dashboard Components
 
-- **Top Directors** – bar chart ranking directors by number of titles
-- **Movies vs Shows** – donut chart showing content type split (63.31% Movies, 36.69% Shows)
-- **Yearly Progression** – area chart tracking content release growth from 2000 to 2020+
-- **Top Actors** – bar chart of most-featured actors across titles
-- **Top 10 Genres** – horizontal bar chart ranking genres by title count
-- **Country-wise Content Production** – geo map showing global content production hotspots
+- **Top Directors** – Raúl Campos & Jan Suter lead with 20 and 19 titles respectively, followed by Ryan Polito, Jay Karas, and Marcus Raboy
+- **Movies vs Shows** – donut chart comparing content types; Movies clearly outnumber Shows (63.31% vs 36.69%)
+- **Yearly Progression** – tracks how Netflix content grew year by year; growth increased rapidly after 2015, reflecting Netflix's global expansion
+- **Top Actors** – Boman Irani and Kareena Kapoor lead with 25 titles each, identifying the most recurring actors
+- **Top Genres** – Comedy and Drama are the most frequently occurring genres in the catalog
+- **Country-wise Content Production** – geo map showing content production by country; the USA and India are the top content-producing countries
 - **Interactive Filters** – toggle between Movie / Show content types
 
 ## 💡 Key Insights
 
-- Movies significantly outnumber Shows in the catalog (63% vs 37%).
-- Content production shows explosive growth starting around 2015, peaking near 2020.
-- A small group of directors and actors account for a disproportionately large share of titles.
-- Comedy and documentary are among the most common genres in the catalog.
+- Movies make up nearly two-thirds of the catalog (63.31%) vs Shows (36.69%).
+- Content growth accelerated sharply after 2015, driven by Netflix's global expansion.
+- Comedy and Drama are the dominant genres, reflecting strong audience interest in these categories.
+- The USA and India are the largest content-producing countries on the platform.
+- A small set of directors and actors (e.g., Raúl Campos, Jan Suter, Boman Irani, Kareena Kapoor) contribute a disproportionately large share of titles.
 
 ## 🛠️ Tools Used
 
