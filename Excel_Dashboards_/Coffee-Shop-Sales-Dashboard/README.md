@@ -1,56 +1,84 @@
-# ☕ Coffee Shop Sales Dashboard
+# ☕ Coffee Shop Sales Dashboard (Microsoft Excel)
 
-An Excel dashboard analyzing sales performance across coffee shop store locations, products, and time periods — built to uncover sales trends and top-performing products/stores.
+[![Excel](https://img.shields.io/badge/Tool-Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](#)
+[![Domain](https://img.shields.io/badge/Domain-Retail_%2F_F%26B-F59E0B?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-10B981?style=for-the-badge)](#)
+
+An interactive Microsoft Excel sales dashboard analyzing revenue performance, transaction volumes, and product demand across multiple store locations to identify key revenue drivers and optimize store operations.
 
 ![Dashboard Preview](dashboard_preview.png)
 
-## 📊 Overview
+---
 
-This dashboard breaks down transactions, revenue, and product performance using Pivot Tables and Slicers, filterable by **Store Location**, **Product Category**, and **Product Type**.
+## 📊 Business Problem & Overview
 
-## 🔑 Key Metrics (KPIs)
+Managing multi-location retail coffee shops requires real-time insights into store-level footfall, peak sales windows, top-selling beverage items, and weekday vs. weekend performance.
 
-| Metric | Value |
-|---|---|
-| Total Transactions | 149,116 |
-| Total Revenue | $698,812.33 |
-| Quantity Sold | 214,470 |
-| Average Order Value | $4.69 |
-| Weekdays Sales % | 72.06% |
-| Weekends Sales % | 27.94% |
+### Core Objectives:
+* 💰 Track overall revenue growth and transaction volume trends across H1 (Jan–Jun).
+* 🏪 Evaluate revenue differences across store locations (**Astoria, Hell's Kitchen, Lower Manhattan**).
+* ☕ Pinpoint top-performing product categories (Coffee, Tea, Bakery, Chocolate).
+* 📅 Analyze sales distribution across Weekdays vs. Weekends.
 
-## 📈 Dashboard Components
+---
 
-- **Monthly Sales Trend** – line chart tracking revenue growth from January to June
-- **Top 5 Products** – bar chart of best-selling products by revenue (Cappuccino, Latte, etc.)
-- **Sales by Product Type** – comparison across all product types
-- **Weekdays vs Weekends Sales** – bar chart comparing revenue split
-- **Sales by Product Category** – pie chart across Bakery, Coffee, Loose Tea, Packaged Chocolate, and Tea
-- **Store-wise Revenue** – 3D bar chart comparing revenue across Astoria, Hell's Kitchen, and Lower Manhattan
-- **Interactive Filters** – Store Location, Product Category, Product Type
+## 🔑 Key Performance Indicators (KPIs)
 
-## 💡 Key Insights
+| Metric | Value | Business Significance |
+|---|---|---|
+| **Total Revenue** | **$698,812.33** | Gross sales generated across all 3 store locations |
+| **Total Transactions** | **149,116** | Total customer orders processed |
+| **Quantity Sold** | **214,470** | Total individual beverage and food items sold |
+| **Average Order Value (AOV)** | **$4.69** | Average basket size per transaction |
+| **Weekday Sales Contribution** | **72.06%** | Primary revenue driver window |
+| **Weekend Sales Contribution** | **27.94%** | Secondary sales window |
 
-- Sales show a strong upward trend from January to June.
-- Weekday sales significantly outperform weekend sales (72% vs 28%).
-- Latte and Cappuccino variants dominate the top-selling products list.
-- Hell's Kitchen store generates the highest revenue among the three locations.
+---
 
-## ✅ Recommendations
+## 📈 Key Dashboard Features
 
-- Leverage the strong weekday performance with targeted weekday promotions.
-- Investigate ways to boost weekend footfall through weekend-specific offers.
-- Focus inventory and marketing on top-performing products (Latte, Cappuccino).
+* **Monthly Revenue Trend**: Line chart illustrating strong, consistent month-over-month growth from January through June.
+* **Top 5 Best-Selling Products**: Ranked bar chart highlighting top revenue generators (*Cappuccino, Latte, Gourmet Brewed Coffee*).
+* **Category Revenue Split**: Donut breakdown across Coffee, Tea, Bakery, Loose Tea, and Packaged Chocolate.
+* **Location Breakdown**: 3D comparative chart highlighting **Hell's Kitchen** as the top revenue location.
+* **Interactive Slicers**: Dynamic filtering by Store Location, Product Category, and Product Type.
 
-## 🛠️ Tools Used
+---
 
-- Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Dashboard Design)
+## 💡 Key Business Insights
 
-## 📂 Files
+1. **Weekday Dominance**: Over **72% of sales** occur between Monday and Friday, driven by morning commute coffee demand.
+2. **Product Champions**: Espresso-based beverages (*Latte & Cappuccino*) generate over 45% of total beverage revenue.
+3. **Location Performance**: **Hell's Kitchen** yields the highest average revenue per transaction, while Astoria shows steady growth.
+4. **Growth Trajectory**: Revenue steadily increased every month from January ($81k) to June ($166k).
 
-- `Coffee_Shop_Sales_Dashboard.xlsx` – full interactive workbook
-- `dashboard_preview.png` – dashboard screenshot
+---
+
+## ✅ Strategic Recommendations
+
+* 🎯 **Weekday Promos**: Implement fast-checkout morning combos during weekday peak rush hours (7 AM – 10 AM).
+* 🎁 **Weekend Loyalty Offers**: Launch weekend-only bundled discounts (e.g., Coffee + Bakery pastry) to boost weekend footfall.
+* 📦 **Inventory Optimization**: Ensure high inventory levels of premium milk and espresso beans at the Hell's Kitchen location.
+
+---
+
+## 🛠️ Tools & Excel Functions Used
+
+* **Pivot Tables & Pivot Charts** for dynamic data aggregation
+* **Slicers & Timeline Controls** for interactive user experience
+* **Excel Formulas**: `VLOOKUP`, `INDEX-MATCH`, `SUMIFS`, `COUNTIFS`, `AVERAGE`
+* **Custom Formatting & Layout Design**
+
+---
+
+## 📂 File Structure
+
+* `Coffee_Shop_Sales_Dashboard.xlsx` — Full interactive Excel workbook
+* `dashboard_preview.png` — High-resolution dashboard screenshot
+* `README.md` — Project documentation & business insights
+
+---
 
 ## 👤 Author
-
-**Faizan Rayeen**
+**Mohd Faizan Rayeen**  
+🌐 **[Live Portfolio](https://faizanrayeen.github.io/Portfolio)** | 💼 **[LinkedIn](https://www.linkedin.com/in/faizan-rayeen)** | 📧 **[Email](mailto:faizanrayeen675@gmail.com)**

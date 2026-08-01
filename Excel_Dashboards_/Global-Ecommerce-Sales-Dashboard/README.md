@@ -1,54 +1,83 @@
-# 🌍 Global E-Commerce Sales Dashboard
+# 🌍 Global E-Commerce Sales Dashboard (Microsoft Excel)
 
-An interactive Excel dashboard analyzing global e-commerce sales performance across regions, product categories, and countries — built to identify revenue drivers and support data-driven business decisions.
+[![Excel](https://img.shields.io/badge/Tool-Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](#)
+[![Domain](https://img.shields.io/badge/Domain-Global_E--Commerce-3B82F6?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-10B981?style=for-the-badge)](#)
+
+An interactive Microsoft Excel sales dashboard analyzing global e-commerce performance across regions, product categories, and international markets to evaluate profitability and regional growth.
 
 ![Dashboard Preview](dashboard_preview.png)
 
-## 📊 Overview
+---
 
-This dashboard tracks key e-commerce metrics using Pivot Tables, Slicers, and dynamic charts, allowing users to filter data by **Region**, **Customer Segment**, **Product Category**, and **Payment Method**.
+## 📊 Business Overview & Problem Statement
 
-## 🔑 Key Metrics (KPIs)
+Global e-commerce platforms handle diverse product lines, international shipping logistics, and varying regional profit margins. Executive leadership requires consolidated visibility into global revenue patterns, top-selling product categories, and regional profitability.
 
-| Metric | Value |
-|---|---|
-| Total Revenue | $438,641.22 |
-| Total Profit | $144,719.84 |
-| Average Order Value | $244.78 |
-| Total Customers | 1,792 |
-| Total Quantity Sold | 6,385 |
+### Core Objectives:
+* 💰 Monitor **Total Revenue, Net Profit, and Average Order Value (AOV)** across global territories.
+* 📦 Compare performance across main product categories (**Technology, Furniture, Office Supplies, Clothing**).
+* 🌍 Identify top-performing countries and geographical sales concentrations.
+* 📅 Analyze monthly sales seasonality to optimize inventory planning.
 
-## 📈 Dashboard Components
+---
 
-- **Sales by Product Category** – horizontal bar chart comparing revenue across Technology, Furniture, Office Supplies, and Clothing & Accessories
-- **Monthly Sales Trend** – line chart tracking sales seasonality across the year
-- **Revenue by Region** – pie chart showing regional revenue contribution
-- **Sales by Country** – geo map visualizing country-wise sales
-- **Profit by Product Category** – bar chart comparing profitability across categories
-- **Top 10 Products by Revenue** – ranked bar chart of best-selling products
-- **Interactive Filters** – Region, Customer Segment, Product Category, Payment Method
+## 🔑 Key Performance Indicators (KPIs)
 
-## 💡 Key Insights
+| Metric | Value | Business Significance |
+|---|---|---|
+| **Total Global Revenue** | **$438,641.22** | Cumulative gross sales across international markets |
+| **Total Net Profit** | **$144,719.84** | Overall net profit generated |
+| **Profit Margin** | **32.99%** | Strong overall profitability ratio |
+| **Average Order Value (AOV)** | **$244.78** | Average spend per customer order |
+| **Total Quantity Sold** | **6,385 Units** | Total product units shipped |
+| **Unique Customers** | **1,792 Customers** | Total active buying accounts |
 
-- Sales show noticeable monthly trends, indicating seasonal demand and peak periods.
-- Certain regions consistently contribute more revenue than others, highlighting geographic opportunities.
-- Top products dominate a significant share of total sales, showing product-level concentration.
+---
 
-## ✅ Recommendations
+## 📈 Key Dashboard Features
 
-- Focus marketing efforts on high-performing products to maximize revenue and customer engagement.
-- Strengthen sales strategies in top-performing regions to optimize profitability.
-- Target high-value customer segments to improve long-term retention and lifetime value.
+* **Category Revenue Breakdown**: Horizontal bar chart evaluating sales across Technology, Office Supplies, Furniture, and Clothing.
+* **Monthly Seasonality Trend**: Line chart mapping revenue fluctuations across all 12 months.
+* **Regional Contribution**: Donut breakdown displaying percentage sales split across global sales territories.
+* **Top 10 Products by Revenue**: Ranked chart highlighting top revenue-driving SKUs.
+* **Interactive Filters**: Multi-slicer controls for Region, Customer Segment, Product Category, and Payment Method.
 
-## 🛠️ Tools Used
+---
 
-- Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Dashboard Design)
+## 💡 Key Business Insights
 
-## 📂 Files
+1. **Technology Leader**: Technology products generate the highest revenue and yield the strongest profit margins (~36%).
+2. **Seasonal Spikes**: Sales peak significantly in Q3 and Q4, aligning with international holiday shopping trends.
+3. **Regional High-Performers**: North America and European regions account for over 58% of total international revenue.
+4. **Product Concentration**: The top 10 products account for nearly 30% of total catalog revenue.
 
-- `Global_Ecommerce_Sales_Dashboard.xlsx` – full interactive workbook
-- `dashboard_preview.png` – dashboard screenshot
+---
+
+## ✅ Strategic Recommendations
+
+* 🚚 **Regional Inventory Warehousing**: Increase warehouse stock in top European and North American logistics hubs ahead of Q3 peak season.
+* 💻 **Tech Bundle Promotions**: Bundle high-margin Technology items with accessories to further increase AOV beyond $250.
+* 🎯 **VIP Loyalty Tier**: Establish a dedicated rewards program for high-value customer segments (AOV > $500).
+
+---
+
+## 🛠️ Tools & Excel Functions Used
+
+* **Pivot Tables & Pivot Charts** for dynamic dataset summarize
+* **Interactive Slicers & Dynamic Dashboard Layout**
+* **Excel Formulas**: `SUMIFS`, `AVERAGEIFS`, `VLOOKUP`, `INDEX-MATCH`, `ROUND`
+
+---
+
+## 📂 File Structure
+
+* `Global_Ecommerce_Sales_Dashboard.xlsx` — Full interactive Excel workbook
+* `dashboard_preview.png` — High-resolution dashboard screenshot
+* `README.md` — Project documentation & insights
+
+---
 
 ## 👤 Author
-
-**Faizan Rayeen**
+**Mohd Faizan Rayeen**  
+🌐 **[Live Portfolio](https://faizanrayeen.github.io/Portfolio)** | 💼 **[LinkedIn](https://www.linkedin.com/in/faizan-rayeen)** | 📧 **[Email](mailto:faizanrayeen675@gmail.com)**

@@ -1,55 +1,75 @@
-# 🎬 Netflix Content Intelligence Dashboard
+# 🎬 Netflix Content Intelligence Dashboard (Power BI)
 
-A Power BI dashboard analyzing Netflix's movies and TV shows data to uncover content trends and audience preferences.
+[![Power BI](https://img.shields.io/badge/Tool-Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
+[![Domain](https://img.shields.io/badge/Domain-Entertainment_%2F_Streaming-E50914?style=for-the-badge&logo=netflix&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-10B981?style=for-the-badge)](#)
+
+An interactive Power BI dashboard analyzing Netflix's global content library—spanning movies, TV shows, genres, IMDb ratings, runtime, directors, and country production trends.
 
 ![Dashboard Preview](dashboard_preview.png)
 
-## 📊 Overview
+---
 
-An interactive single-page dashboard exploring Netflix's content catalog — including titles, genres, IMDb ratings, TMDB scores, release year, runtime, countries, actors, and directors — with filters to toggle between **Movie** and **Show** content types.
+## 📊 Business Problem & Overview
 
-The goal of this project was to understand:
-- Which type of content is most popular
-- Which genres are trending
-- How Netflix content grew over the years
-- Which countries produce the most content
+Streaming platforms invest billions in original and licensed content. Understanding content growth velocity, genre demand, country distribution, and rating benchmarks is crucial for content acquisition strategy.
 
-## 🔑 Key Metrics (KPIs)
+### Core Objectives:
+* 🎬 Analyze ratio of **Movies vs. TV Shows** in the catalog.
+* 📈 Measure content library growth progression over the years (1925–2021).
+* 🌍 Map global content production across countries (USA, India, UK, etc.).
+* 🌟 Benchmark catalog quality using **IMDb & TMDB score distributions**.
 
-| Metric | Value |
-|---|---|
-| Total Genres | 5.645K |
-| Total Runtime | 7.15K hrs |
-| Average TMDB Score | 6.83 |
-| Average IMDb Score | 6.50 |
+---
 
-## 📈 Dashboard Components
+## 🔑 Key Performance Indicators (KPIs)
 
-- **Top Directors** – Raúl Campos & Jan Suter lead with 20 and 19 titles respectively, followed by Ryan Polito, Jay Karas, and Marcus Raboy
-- **Movies vs Shows** – donut chart comparing content types; Movies clearly outnumber Shows (63.31% vs 36.69%)
-- **Yearly Progression** – tracks how Netflix content grew year by year; growth increased rapidly after 2015, reflecting Netflix's global expansion
-- **Top Actors** – Boman Irani and Kareena Kapoor lead with 25 titles each, identifying the most recurring actors
-- **Top Genres** – Comedy and Drama are the most frequently occurring genres in the catalog
-- **Country-wise Content Production** – geo map showing content production by country; the USA and India are the top content-producing countries
-- **Interactive Filters** – toggle between Movie / Show content types
+| Metric | Value | Significance |
+|---|---|---|
+| **Total Unique Genres Analyzed** | **5,645** | Multi-genre catalog tags evaluated |
+| **Total Content Runtime** | **7,150+ Hours** | Cumulative library duration |
+| **Average TMDB Rating** | **6.83 / 10** | High average audience satisfaction score |
+| **Average IMDb Rating** | **6.50 / 10** | Global critic rating benchmark |
+| **Movie Share** | **63.31%** | Dominant catalog content type |
+| **TV Show Share** | **36.69%** | Fast-growing episodic content segment |
 
-## 💡 Key Insights
+---
 
-- Movies make up nearly two-thirds of the catalog (63.31%) vs Shows (36.69%).
-- Content growth accelerated sharply after 2015, driven by Netflix's global expansion.
-- Comedy and Drama are the dominant genres, reflecting strong audience interest in these categories.
-- The USA and India are the largest content-producing countries on the platform.
-- A small set of directors and actors (e.g., Raúl Campos, Jan Suter, Boman Irani, Kareena Kapoor) contribute a disproportionately large share of titles.
+## 📈 Dashboard Highlights & DAX Measures
 
-## 🛠️ Tools Used
+* **Movies vs. Shows Ratio**: Interactive visual detailing Movie majority (63.31%).
+* **Yearly Content Progression**: Line chart demonstrating exponential content expansion post-2015.
+* **Geographic Production Map**: Interactive map displaying USA and India as primary content production hubs.
+* **Top Directors & Actors**: Leaderboards featuring top contributing directors (*Raúl Campos, Jan Suter*) and actors (*Boman Irani, Kareena Kapoor*).
+* **Interactive Slicers**: Toggle filters between Movies, TV Shows, Genres, and Release Years.
 
-- Power BI (DAX measures, interactive slicers, geo mapping, custom theming)
+---
 
-## 📂 Files
+## 💡 Key Business Insights
 
-- `Netflix_Content_Intelligence_Dashboard.pbix` – full interactive Power BI file
-- `dashboard_preview.png` – dashboard screenshot
+1. **Post-2015 Explosion**: Netflix's international expansion triggered a sharp increase in catalog additions after 2015.
+2. **Genre Dominance**: **Comedy and Drama** represent the highest volume of catalog titles worldwide.
+3. **Regional Heavyweights**: The **United States and India** lead global content production, followed by the United Kingdom and Japan.
+4. **Director/Actor Concentration**: A core set of recurring directors and actors account for a significant portion of international titles.
+
+---
+
+## 🛠️ Power BI Features Used
+
+* **DAX Calculations** for runtime aggregations and weighted rating averages
+* **Interactive Slicers & Page Tooltips**
+* **Geo Mapping & Custom Dark Theme Styling**
+
+---
+
+## 📂 File Structure
+
+* `Netflix_Content_Intelligence_Dashboard.pbix` — Interactive Power BI report file
+* `dashboard_preview.png` — High-resolution dashboard screenshot
+* `README.md` — Project documentation & insights
+
+---
 
 ## 👤 Author
-
-**Faizan Rayeen**
+**Mohd Faizan Rayeen**  
+🌐 **[Live Portfolio](https://faizanrayeen.github.io/Portfolio)** | 💼 **[LinkedIn](https://www.linkedin.com/in/faizan-rayeen)** | 📧 **[Email](mailto:faizanrayeen675@gmail.com)**

@@ -1,27 +1,30 @@
 # 📊 Power BI Dashboard Projects
 
-A collection of interactive Power BI dashboards analyzing real-world business data across entertainment, banking, and retail/F&B domains — built using DAX measures, decomposition trees, geo mapping, and interactive slicers.
+[![Power BI](https://img.shields.io/badge/Category-Power_BI_Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
 
-| Project | Domain | Key Highlight |
-|---|---|---|
-| [🎬 Netflix Content Intelligence Dashboard](./Netflix-Content-Intelligence-Dashboard) | Entertainment | Analysis of 5.6K+ genres across global content catalog |
-| [🏦 Bank Performance Dashboard](./Bank-Performance-Dashboard) | Banking / Finance | 4-page report covering transactions, risk & fraud for 4,727 customers |
-| [☕ From Beans to Business: Coffee Shop Analysis](./Data-Driven-Coffee-Shop-Analysis) | Retail / F&B | Sales driver analysis with decomposition tree across 3 stores |
+A collection of interactive Power BI business intelligence dashboards analyzing real-world datasets across **Entertainment, Banking/Finance, and Retail/F&B** domains.
 
-Each project folder contains:
-- The full `.pbix` interactive Power BI file
-- Screenshots of every report page
-- A detailed `README.md` with KPIs, insights, and page-by-page breakdown
+---
 
-## 🛠️ Tools & Techniques Used
+## 📂 Project Showcase
 
-- DAX Measures & Calculated Columns
-- Interactive Slicers & Cross-Filtering
-- Decomposition Trees
-- Geo Mapping
-- Multi-page Report Design
-- Custom Theming
+| Project Name | Business Domain | Key Highlights & Metrics | Link |
+|---|---|---|---|
+| 🎬 **Netflix Content Intelligence Dashboard** | Entertainment | **5.6K+ Genres**, Movies vs Shows catalog trends, country maps | [View Project](./Netflix-Content-Intelligence-Dashboard) |
+| 🏦 **Bank Performance Dashboard** | Banking / Finance | **$11.9B Balances**, 4-page report on transactions, risk & fraud | [View Project](./Bank-Performance-Dashboard) |
+| ☕ **From Beans to Business: Coffee Analysis** | Retail / F&B | **$1M+ Revenue**, Decomposition tree & sales driver analysis | [View Project](./Data-Driven-Coffee-Shop-Analysis) |
+
+---
+
+## 🛠️ Tools & Technical Highlights
+
+* **DAX Calculations**: Advanced measures for dynamic aggregation, time intelligence, and weighted scoring.
+* **AI-Powered Visuals**: Decomposition Trees for root-cause revenue driver analysis.
+* **Geographic Mapping**: Country-level production and regional sales distribution maps.
+* **Multi-Page Executive Reports**: Seamless drill-through navigation and page tooltips.
+
+---
 
 ## 👤 Author
-
-**Faizan Rayeen**
+**Mohd Faizan Rayeen**  
+🌐 **[Live Portfolio](https://faizanrayeen.github.io/Portfolio)** | 💼 **[LinkedIn](https://www.linkedin.com/in/faizan-rayeen)** | 📧 **[Email](mailto:faizanrayeen675@gmail.com)**

@@ -1,22 +1,27 @@
 # 📊 Tableau Dashboard Projects
 
-A collection of interactive Tableau dashboards analyzing real-world business data.
+[![Tableau](https://img.shields.io/badge/Category-Tableau_Dashboards-E97627?style=for-the-badge&logo=tableau&logoColor=white)](#)
 
-| Project | Domain | Key Highlight |
-|---|---|---|
-| [👥 HR Analytics & Attrition Dashboard](./HR-Analytics-Attrition-Dashboard) | Human Resources | 16.12% attrition rate analyzed across 4,410 employees |
+A collection of interactive Tableau dashboards analyzing business datasets to solve domain-specific problems.
 
-Each project folder contains:
-- The full `.twbx` packaged Tableau workbook (includes data)
-- A dashboard preview screenshot
-- A detailed `README.md` with KPIs and insights
+---
 
-## 🛠️ Tools & Techniques Used
+## 📂 Project Showcase
 
-- Calculated Fields
-- Dashboard Actions & Interactive Filters
-- Packed Bubble Charts, Scatter Plots, Heat Maps
+| Project Name | Business Domain | Key Highlights & Metrics | Link |
+|---|---|---|---|
+| 👥 **HR Analytics & Attrition Dashboard** | Human Resources | **16.12% Attrition Rate**, 4,410 employees analyzed across departments | [View Project](./HR-Analytics-Attrition-Dashboard) |
+
+---
+
+## 🛠️ Tools & Technical Highlights
+
+* **Calculated Fields**: Custom formulas for retention rates, average monthly income, and tenure buckets.
+* **Dashboard Actions & Interactive Filters**: Filter dashboard views by department, gender, and education.
+* **Visual Storytelling**: Packed Bubble Charts, Scatter Plots, and Heatmaps.
+
+---
 
 ## 👤 Author
-
-**Faizan Rayeen**
+**Mohd Faizan Rayeen**  
+🌐 **[Live Portfolio](https://faizanrayeen.github.io/Portfolio)** | 💼 **[LinkedIn](https://www.linkedin.com/in/faizan-rayeen)** | 📧 **[Email](mailto:faizanrayeen675@gmail.com)**
